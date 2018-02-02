@@ -6,7 +6,7 @@
 #
 Name     : lzip
 Version  : 1.19
-Release  : 2
+Release  : 3
 URL      : http://mirror.easyname.at/nongnu/lzip/lzip-1.19.tar.gz
 Source0  : http://mirror.easyname.at/nongnu/lzip/lzip-1.19.tar.gz
 Source99 : http://mirror.easyname.at/nongnu/lzip/lzip-1.19.tar.gz.sig
