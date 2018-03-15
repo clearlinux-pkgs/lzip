@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x8FE99503132D7742 (ant_diaz@teleline.es)
 #
 Name     : lzip
-Version  : 1.19
-Release  : 3
-URL      : http://mirror.easyname.at/nongnu/lzip/lzip-1.19.tar.gz
-Source0  : http://mirror.easyname.at/nongnu/lzip/lzip-1.19.tar.gz
-Source99 : http://mirror.easyname.at/nongnu/lzip/lzip-1.19.tar.gz.sig
+Version  : 1.20
+Release  : 4
+URL      : http://mirror.easyname.at/nongnu/lzip/lzip-1.20.tar.gz
+Source0  : http://mirror.easyname.at/nongnu/lzip/lzip-1.20.tar.gz
+Source99 : http://mirror.easyname.at/nongnu/lzip/lzip-1.20.tar.gz.sig
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-2.0
@@ -41,19 +41,19 @@ doc components for the lzip package.
 
 
 %prep
-%setup -q -n lzip-1.19
+%setup -q -n lzip-1.20
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1510133870
+export SOURCE_DATE_EPOCH=1521082243
 %configure --disable-static CXXFLAGS="$CXXFLAGS"
-make V=1  %{?_smp_mflags}
+make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1510133870
+export SOURCE_DATE_EPOCH=1521082243
 rm -rf %{buildroot}
 %make_install
 
