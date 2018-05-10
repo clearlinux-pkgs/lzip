@@ -6,7 +6,7 @@
 #
 Name     : lzip
 Version  : 1.20
-Release  : 4
+Release  : 5
 URL      : http://mirror.easyname.at/nongnu/lzip/lzip-1.20.tar.gz
 Source0  : http://mirror.easyname.at/nongnu/lzip/lzip-1.20.tar.gz
 Source99 : http://mirror.easyname.at/nongnu/lzip/lzip-1.20.tar.gz.sig
